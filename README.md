@@ -4,7 +4,7 @@
 
 曾几何时，你有否想过，自己是一个*机器人*？那么来吧，**小钉哥** 帮你实现梦想
 
-# Download
+# 下载
 
 * Windows: [64bit](https://github.com/DFocusFE/dingding-robot-play/releases/download/1.0.0/dingBot-win32-x64-1.0.0.zip)
 * Mac 11.11+: [64bit](https://github.com/DFocusFE/dingding-robot-play/releases/download/1.0.0/dingBot-darwin-x64-1.0.0.zip)
