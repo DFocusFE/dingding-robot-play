@@ -6,8 +6,8 @@
 
 # Download
 
-* Windows: [64bit](https://github.com/leftstick/dingding-robot-play/releases/download/1.0.0/dingBot-win32-x64-1.0.0.zip)
-* Mac 11.11+: [64bit](https://github.com/leftstick/dingding-robot-play/releases/download/1.0.0/dingBot-darwin-x64-1.0.0.zip)
+* Windows: [64bit](https://github.com/DFocusFE/dingding-robot-play/releases/download/1.0.0/dingBot-win32-x64-1.0.0.zip)
+* Mac 11.11+: [64bit](https://github.com/DFocusFE/dingding-robot-play/releases/download/1.0.0/dingBot-darwin-x64-1.0.0.zip)
 
 ## 为钉钉创建自定义机器人
 
