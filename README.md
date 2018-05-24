@@ -4,6 +4,11 @@
 
 曾几何时，你有否想过，自己是一个*机器人*？那么来吧，**小钉哥** 帮你实现梦想
 
+# Download
+
+* Windows: [64bit](https://github.com/leftstick/dingding-robot-play/releases/download/1.0.0/dingBot-win32-x64-1.0.0.zip)
+* Mac 11.11+: [64bit](https://github.com/leftstick/dingding-robot-play/releases/download/1.0.0/dingBot-darwin-x64-1.0.0.zip)
+
 ## 为钉钉创建自定义机器人
 
 随便找一个你想要骚浪贱的**群**，进去，依次点开`群管理` => `机器人管理`，点击“添加机器人”，拉到最后，找到`自定义`卡片，如下图
