@@ -71,7 +71,7 @@ const MOBILE_REGEX = /@1(3|4|5|7|8)\d{9}([\s\S]|$)/gm
  * @param {string} text message content
  */
 function findAtMobiles(text) {
-  return text.match(MOBILE_REGEX).map(txt => txt.substring(1, 12))
+  return (text.match(MOBILE_REGEX) || []).map(txt => txt.substring(1, 12))
 }
 
 export function checkWebhookExist(webhook) {
