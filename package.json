@@ -1,6 +1,6 @@
 {
   "name": "dingding-robot-play",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "钉钉自定义机器人，消息发送工具",
   "main": "shell/main.js",
   "scripts": {
