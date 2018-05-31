@@ -5,10 +5,8 @@
   "main": "shell/main.js",
   "scripts": {
     "start": "concurrently \"NODE_ENV=dev electron .\" \"webpack-dev-server --config compile/webpack.config.dev.js\"",
-    "packageDarwin":
-      "electron-packager . 'dingBot' --platform=darwin --arch=x64 --icon=bot.icns --out=./dist --asar --ignore=\"(src|dist|compile|assets|node_modules)\"",
-    "packageWin":
-      "electron-packager . 'dingBot' --platform=win32 --arch=x64 --icon=bot.ico --out=./dist --asar --ignore=\"(src|dist|compile|assets|node_modules)\"",
+    "packageDarwin": "electron-packager . 'dingBot' --platform=darwin --arch=x64 --icon=bot.icns --out=./dist --asar --ignore=\"(src|dist|compile|assets|node_modules)\"",
+    "packageWin": "electron-packager . 'dingBot' --platform=win32 --arch=x64 --icon=bot.ico --out=./dist --asar --ignore=\"(src|dist|compile|assets|node_modules)\"",
     "prepackage": "rm -rf build && webpack --config compile/webpack.config.prod.js && rm -rf dist",
     "package": "npm run packageDarwin && npm run packageWin"
   },
@@ -40,25 +38,26 @@
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "eslint-plugin-vue": "^4.5.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
-    "prettier": "^1.12.1",
+    "prettier": "^1.13.3",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-loader": "^15.2.0",
+    "vue-loader": "^15.2.2",
     "vue-style-loader": "^4.1.0",
     "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.3",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "codemirror": "^5.38.0",
-    "element-ui": "^2.3.9",
-    "vue": "^2.5.16"
+    "element-ui": "^2.4.0",
+    "vue": "^2.5.16",
+    "webpack-merge": "^4.1.2"
   }
 }
